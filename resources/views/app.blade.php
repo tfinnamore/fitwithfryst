@@ -5,6 +5,8 @@
 
         <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/custom.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 
     </head>
     <body>
@@ -23,7 +25,6 @@
                   <img class="navbar-brand" src="logo.png" />
                   <a class="navbar-brand text-brand" href="#">Fit With Fryst</a>
                 </div>
-
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                  <ul class="nav navbar-nav">
                    <li><a href="#">Link 1</a></li>
@@ -34,23 +35,11 @@
                    <li><a href="#">Sign In</a></li>
                  </ul>
                </div>
-
-
-
-
-
               </div>
-
             </nav>
-
-
-
-
 
                 @yield('content')
 
-                </div>
-            </div>
         </div>
     </div>
 </div>
