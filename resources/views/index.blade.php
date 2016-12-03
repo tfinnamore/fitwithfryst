@@ -5,7 +5,7 @@
   <div class="jumbotron">
     <h1>Want to get FIT?</h1>
     <p>
-      My name is Fryst. I am on a journey to get fit. Why dont you join me in recording your progress?
+      My name is Fryst. I am on a journey to get fit. Why don't you join me in recording your progress?
     </p>
     <p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Sign Up!</a>
