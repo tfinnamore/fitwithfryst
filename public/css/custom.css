@@ -1,3 +1,14 @@
 .navbar-default .navbar-brand {
-  color: #00b940;
+  /*color: #00b940;*/
+  color: #00ff00;
+}
+.navbar-brand,
+.navbar-nav li a {
+  height:75px;
+  line-height: 75px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.text-brand {
+  font-size: 35px;
 }
