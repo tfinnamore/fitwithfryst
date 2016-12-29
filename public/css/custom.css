@@ -11,6 +11,9 @@ body {
 .navbar-default .navbar-nav li a {
   color: #ccc;
 }
+.navbar-default {
+  background-color: #151515;
+}
 .navbar-brand,
 .navbar-nav li a {
   height:75px;
