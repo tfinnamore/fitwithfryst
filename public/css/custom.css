@@ -13,6 +13,7 @@ body {
 }
 .navbar-default {
   background-color: #151515;
+  border-radius: 6px;
 }
 .navbar-brand,
 .navbar-nav li a {
