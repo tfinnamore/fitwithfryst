@@ -22,6 +22,10 @@ body {
   padding-top: 0;
   padding-bottom: 0;
 }
+.navbar-toggle {
+  line-height: 75px;
+  margin-top: 20px;
+}
 .text-brand {
   font-size: 25px;
 }
