@@ -33,7 +33,7 @@ body {
   color: #000;
   background-color: #00b800;
   border-color: #000;
-  text-shadow: 0px 0px 2px #333;
+  /*text-shadow: 0px 0px 2px #333;*/
 }
 .btn-primary:hover {
   color: #1c1c1c;
