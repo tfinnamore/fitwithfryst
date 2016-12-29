@@ -7,6 +7,9 @@ body {
   /*color: #00b940;*/
   color: #00ff00;
 }
+.navbar-default .navbar-nav li a {
+  color: #ccc;
+}
 .navbar-brand,
 .navbar-nav li a {
   height:75px;
