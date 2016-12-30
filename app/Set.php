@@ -8,7 +8,7 @@ class Set extends Model
 {
     //
     protected $fillable = [
-
+      'user_id', 'workout_id', 'exercise', 'reps', 'weight'
     ];
 
 
