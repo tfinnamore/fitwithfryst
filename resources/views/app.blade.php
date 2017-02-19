@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <img class="navbar-brand" src="logo.png" />
+                  <img class="navbar-brand" src="/logo.png" />
                   <a class="navbar-brand text-brand" href="#">Fit With Fryst</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -60,7 +60,7 @@
 </div>
 
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://code.jquery.com/ui/1.12.0/jquery-ui.min.js'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.min.js'></script>
 <link rel=stylesheet href="https://code.jquery.com/ui/1.12.0/themes/vader/jquery-ui.css" />
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <meta name="csrf-token" content="{{ csrf_token() }}">

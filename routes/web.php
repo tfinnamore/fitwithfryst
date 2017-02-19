@@ -23,3 +23,8 @@ Route::get('logout',function(){
 });
 
 Route::get('/home', 'HomeController@index');
+
+//Workout routes
+Route::get('/workout', 'WorkoutController@index');
+Route::get('/workout/add', 'WorkoutController@add');
+Route::get('/workout/{id}', 'WorkoutController@show');
