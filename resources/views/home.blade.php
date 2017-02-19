@@ -10,8 +10,7 @@
                     <p>
                       Hello! Please begin by adding a workout by clicking on the link below
                     </p>
-                    <a href={{ route('addWorkout') }}>Add Workout</a>
-                </div>
+                    <a href={{ route('addWorkout') }}>Add Workout</a> | <a href={{ route('allWorkouts') }}>All Workouts</a>                </div>
             </div>
         </div>
     </div>
