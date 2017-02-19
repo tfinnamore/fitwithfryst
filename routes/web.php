@@ -25,6 +25,13 @@ Route::get('logout',function(){
 Route::get('/home', 'HomeController@index');
 
 //Workout routes
-Route::get('/workout', 'WorkoutController@index');
-Route::get('/workout/add', 'WorkoutController@add');
-Route::get('/workout/{id}', 'WorkoutController@show');
+Route::group(['middleware' => 'auth'], function(){
+
+  Route::get('/workout', 'WorkoutController@index')->name('allWorkouts');
+  Route::get('/workout/add', 'WorkoutController@add')->name('addWorkout');
+  Route::post('/workout/create', 'WorkoutController@create')->name('createWorkout');
+  Route::post('/workout/{workout}/addSet', 'SetController@add')->name('addSet');
+  Route::post('/workout/{workout}/delSet/{set}', 'SetController@destroy')->name('delSet');
+  Route::get('/workout/{workout}', 'WorkoutController@show')->name('showWorkout');
+
+});

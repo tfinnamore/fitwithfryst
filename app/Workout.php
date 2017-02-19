@@ -8,6 +8,6 @@ class Workout extends Model
 {
     //
     protected $fillable = [
-      'date', 'user_id','name'
+      'date', 'user_id', 'name'
     ];
 }
