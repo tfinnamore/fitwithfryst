@@ -41,9 +41,7 @@ class WorkoutController extends Controller
   }
 
   public function show(\App\Workout $workout){
-    echo $workout->name;
-    echo "<br />";
-    echo $workout->date;
+    return view('workouts.show')->with('workout', $workout );
   }
 
 

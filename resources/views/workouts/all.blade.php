@@ -5,7 +5,7 @@
 
   @foreach ($workouts->workouts as $wo)
     <p>
-      Name: {{ $wo->name }}  Date: {{ $wo->date }}
+      Name: <a href={{ route('showWorkout', ['workout' => $wo->id]) }}>{{ $wo->name }}</a>  Date: {{ $wo->date }}
 
     </p>
   @endforeach
