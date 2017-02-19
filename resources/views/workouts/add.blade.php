@@ -47,9 +47,8 @@
 
 @section('scripts')
   <script>
-  var currdate = new Date().toLocaleDateString("en-US");
 $( function() {
-  $( "#date" ).datepicker().val(currdate);
+  $( "#date" ).datepicker().val(new Date().toLocaleDateString("en-US"));
 } );
 </script>
 @endsection
