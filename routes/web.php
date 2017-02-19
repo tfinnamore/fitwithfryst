@@ -27,7 +27,7 @@ Route::get('/home', 'HomeController@index');
 //Workout routes
 Route::group(['middleware' => 'auth'], function(){
 
-  Route::get('/workout', 'WorkoutController@index')->name('allWorkouts');
+  Route::get('/workout/all', 'WorkoutController@index')->name('allWorkouts');
   Route::get('/workout/add', 'WorkoutController@add')->name('addWorkout');
   Route::post('/workout/create', 'WorkoutController@create')->name('createWorkout');
   Route::post('/workout/{workout}/addSet', 'SetController@add')->name('addSet');

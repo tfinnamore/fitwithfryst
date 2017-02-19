@@ -11,6 +11,12 @@ class WorkoutController extends Controller
     //
 
 
+  public function index(){
+    $workouts = \App\User::find(\Auth::id())->with('workouts')->get();
+    // dd($workouts);
+    return view('workouts.all')->with('workouts',  $workouts->first());
+  }
+
   public function add(){
 
     return view('workouts.add');

@@ -6,7 +6,11 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    <h2>Welcome!!!!</h2>
+                    <p>
+                      Hello! Please begin by adding a workout by clicking on the link below
+                    </p>
+                    <a href={{ route('addWorkout') }}>Add Workout</a>
                 </div>
             </div>
         </div>

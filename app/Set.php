@@ -12,7 +12,10 @@ class Set extends Model
     ];
 
 
-
+    public function workout()
+    {
+      return $this->belongsTo('App\Workout');
+    }
 
 
 }
