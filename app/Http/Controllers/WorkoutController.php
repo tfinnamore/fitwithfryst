@@ -41,6 +41,10 @@ class WorkoutController extends Controller
   }
 
   public function show(\App\Workout $workout){
+
+    $workout->load('sets');
+
+    dd($workout);
     return view('workouts.show')->with('workout', $workout );
   }
 
